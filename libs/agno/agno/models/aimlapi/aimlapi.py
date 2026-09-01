@@ -13,7 +13,7 @@ class AIMLAPI(OpenAILike):
     A class for using models hosted on AIMLAPI.
 
     Attributes:
-        id (str): The model id. Defaults to "gpt-4o-mini".
+        id (str): The model id. Defaults to "gpt-5.6-terra".
         name (str): The model name. Defaults to "AIMLAPI".
         provider (str): The provider name. Defaults to "AIMLAPI".
         api_key (Optional[str]): The API key.
@@ -21,7 +21,7 @@ class AIMLAPI(OpenAILike):
         max_tokens (int): The maximum number of tokens. Defaults to 4096.
     """
 
-    id: str = "gpt-4o-mini"
+    id: str = "gpt-5.6-terra"
     name: str = "AIMLAPI"
     provider: str = "AIMLAPI"
 
